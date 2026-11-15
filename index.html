@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random Quote Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Random Quote Generator</h1>
+    <figure class="card">
+      <blockquote id="quote-text"></blockquote>
+      <figcaption id="quote-author"></figcaption>
+    </figure>
+    <div class="actions">
+      <button id="new-quote" type="button">New quote</button>
+      <button id="copy-quote" type="button" class="secondary">Copy</button>
+    </div>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+  </main>
+  <script src="quotes.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
