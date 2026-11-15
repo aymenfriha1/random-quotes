@@ -25,7 +25,7 @@ I built this project to practice JavaScript and learn how to work with browser A
 - `script.js` – Application logic
 
 ## Live Demo
-[Try the application](YOUR_GITHUB_PAGES_LINK)
+[Try the application](https://aymenfriha1.github.io/random-quotes/)
 
 ## Run Locally
 Open `index.html` in your browser.
